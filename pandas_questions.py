@@ -125,7 +125,7 @@ def plot_referendum_map(referendum_result_by_regions):
         figsize=(10, 10),
         legend_kwds={"label": "Ratio of Choice A"}
     )
-    plt.title("Referendum by regions")
+    ax.set_title("Referendum by regions")
 
     return gdf
 
